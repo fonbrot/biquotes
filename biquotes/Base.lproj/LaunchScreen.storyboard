@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14111" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MFh-Zk-pw3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tzN-Qb-6jA">
+            <objects>
+                <viewController id="MFh-Zk-pw3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gix-D0-per">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="jim-ta-Y7W">
+                                <rect key="frame" x="112.5" y="262" width="150" height="143"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jim-ta-Y7W" firstAttribute="centerY" secondItem="Gix-D0-per" secondAttribute="centerY" id="4FV-45-WI2"/>
+                            <constraint firstItem="jim-ta-Y7W" firstAttribute="centerX" secondItem="Gix-D0-per" secondAttribute="centerX" id="LkH-rV-aPH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Z0T-nV-HPV"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="k0h-9t-rc3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9wr-Ir-NeN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1954.4000000000001" y="517.6911544227886"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="star" width="150" height="143"/>
+    </resources>
+</document>
